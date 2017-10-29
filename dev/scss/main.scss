@@ -1,0 +1,91 @@
+html {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+form {
+}
+input {
+    font-family: inherit; // inherit-наследовать
+    border: 2px solid gray;
+    border-radius: 6px;
+    height: 36px;
+    width: 15em;
+    padding: 0;
+}
+
+button {
+    border: 2px solid yellow;
+    background-color: yellow;
+    padding: 0 1em ;
+    line-height: 36px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+s {
+  text-decoration: none;
+  color: gray;
+
+span {
+   text-decoration:line-through;
+}
+
+  }
+
+.price {
+    font-size: 1.5em;
+  strong {
+    font-size: 2.5em;
+  }
+    
+}
+
+.date {
+      color: gray;
+}
+
+.price-block {
+  position: relative;
+  margin-top: -2.5em;
+  z-index: -1;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  
+  .price-block-text {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+  margin: 1rem 0 0.5rem;
+li {
+  font-size: 1rem;
+  display: inline;
+  &:not(:first-child){
+    &::before {
+      content: "•";
+      margin: 0 1em;
+    }
+  
+    } 
+   }
+}
+
+section {
+  //width: 500px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content:center;
+}
