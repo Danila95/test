@@ -16,3 +16,9 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
+
+  
+ h1 {
+	 margin: 20px;
+	 padding: 40px;
+ }
